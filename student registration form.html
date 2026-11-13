@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="fullname" required> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="mail" required> <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required> <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="Date of Birth">  <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="Gen">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gen">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="Gen">
+            <label for="other">Other</label>  <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="reading" name="hobbies">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="dancing" name="hobbies">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="singing" name="hobbies">
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="sports" name="hobbies">
+            <label for="sports">Sports</label> <br><br>
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option>Select your course </option>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>BTech</option>
+                <option>BBA</option>
+                <option>BA</option>
+            </select> <br><br>
+            <label for="address">Address:</label>
+            <textarea placeholder="Enter your address" id="address" name="address"></textarea> <br><br>
+            <label for="photo">Upload your photo:</label>
+            <input type="file" id="photo" name="photo"> <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
