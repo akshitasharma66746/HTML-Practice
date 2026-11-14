@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <form action="">
+    <label for="name">FullName: </label>
+    <input type="text" id="name" name="fullname" required> <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required> <br><br>
+    <label for="education">Educational Qualification</label>
+    <select name="educational qualification" id="education">
+        <option value="" disabled selected>Select your Education</option>
+        <option value="Phd">Phd</option>
+        <option value="pg">Post Graduation</option>
+        <option value="grad">Graduation</option>
+        <option value="12">12th</option>
+        <option value="10">10th</option>
+    </select>
+    <label for="skills">Technical skills:</label>
+    <input type="checkbox" id="html" name="skills" value="HTML"> <label for="html">HTML</label>
+    <input type="checkbox" id="c" name="skills" value="C"> <label for="c">C</label>
+    <input type="checkbox" id="css" name="skills" value="CSS"> <label for="css">CSS</label>
+    <input type="checkbox" id="js" name="skills" value="JS"> <label for="js">JS</label>
+    <input type="checkbox" id="react" name="skills" value="react"> <label for="react">React</label> <br><br>
+    <label for="exp">Work Experience: </label>
+    <input type="radio" id="fresher" name="experience" value="fresher"><label for="fresher">Fresher</label>
+    <input type="radio" id="experienced" name="experience" value="experienced"><label for="experienced" >Having Experience</label> <br><br>
+    <label for="location">Preferred Work location: </label>
+    <select name="location" id="location">
+        <option value="" disabled selected>Select your location</option>
+        <option value="mohali">Mohali</option>
+        <option value="noida">Noida</option>
+        <option value="delhi">Delhi</option>
+        <option value="shimla">Shimla</option>
+    </select>   <br><br>
+    <label for="salary">Expected Salary:</label>
+    <input type="number" id="salary" name="salary">  <br><br>
+    <label for="resume">Upload your Resume: </label>
+    <input type="file" id="resume" name="resume">  <br><br>
+    <label for="why">Why do you want this job: </label>
+    <textarea name="why you want this job" id="why" placeholder="i want this job because...."></textarea>  <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
